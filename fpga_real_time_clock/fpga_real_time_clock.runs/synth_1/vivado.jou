@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 24 02:51:59 2021
+# Process ID: 8596
+# Current directory: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/synth_1
+# Command line: vivado.exe -log fpga_clock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga_clock.tcl
+# Log file: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/synth_1/fpga_clock.vds
+# Journal file: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fpga_clock.tcl -notrace

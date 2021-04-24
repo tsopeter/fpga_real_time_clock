@@ -1,0 +1,395 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 24 02:51:59 2021
+# Process ID: 8596
+# Current directory: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/synth_1
+# Command line: vivado.exe -log fpga_clock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga_clock.tcl
+# Log file: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/synth_1/fpga_clock.vds
+# Journal file: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+WARNING: [Runs 36-547] User Strategy 'Vivado Implementation Defaults' from file 'C:\Users\tsope\AppData\Roaming/Xilinx/Vivado/2020.2/strategies/Vivado Implementation Defaults.Vivado Implementation 2019.psg' discarded because strategy with same name already parsed from 'C:/Xilinx/Vivado/2020.2/strategies/VDI2019.psg'
+source fpga_clock.tcl -notrace
+Command: synth_design -top fpga_clock -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17440
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1018.453 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fpga_clock' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:42]
+INFO: [Synth 8-3491] module 'setup_controller' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:36' bound to instance 'SETUP' of component 'setup_controller' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'setup_controller' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:47]
+INFO: [Synth 8-3491] module 'signal_toggle' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/signal_toggle.vhd:34' bound to instance 'SGTG' of component 'signal_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'signal_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/signal_toggle.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'signal_toggle' (1#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/signal_toggle.vhd:41]
+	Parameter n_bits bound to: 2 - type: integer 
+	Parameter n_max bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'move_toggle' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:34' bound to instance 'MVTG' of component 'move_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'move_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+	Parameter n_bits bound to: 2 - type: integer 
+	Parameter n_max bound to: 4 - type: integer 
+WARNING: [Synth 8-614] signal 'pass' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'input' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'ctrl' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'move_toggle' (2#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+	Parameter n_bits bound to: 27 - type: integer 
+	Parameter n_max bound to: 100000000 - type: integer 
+INFO: [Synth 8-3491] module 'passthrough_modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:34' bound to instance 'PLS1' of component 'passthrough_modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'passthrough_modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+	Parameter n_bits bound to: 27 - type: integer 
+	Parameter n_max bound to: 100000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'passthrough_modulo_counter' (3#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 60 - type: integer 
+INFO: [Synth 8-3491] module 'move_toggle' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:34' bound to instance 'SECMVTG' of component 'move_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'move_toggle__parameterized1' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 60 - type: integer 
+WARNING: [Synth 8-614] signal 'pass' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'input' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'ctrl' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'move_toggle__parameterized1' (3#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 60 - type: integer 
+INFO: [Synth 8-3491] module 'move_toggle' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:34' bound to instance 'MINMVTG' of component 'move_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:167]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'move_toggle' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:34' bound to instance 'HRSMVTG' of component 'move_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'move_toggle__parameterized3' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 12 - type: integer 
+WARNING: [Synth 8-614] signal 'pass' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'input' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'ctrl' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'move_toggle__parameterized3' (3#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'move_toggle' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:34' bound to instance 'AMSMVTG' of component 'move_toggle' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'move_toggle__parameterized5' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 2 - type: integer 
+WARNING: [Synth 8-614] signal 'pass' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'input' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+WARNING: [Synth 8-614] signal 'ctrl' is read in the process but is not in the sensitivity list [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'move_toggle__parameterized5' (3#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'setup_controller' (4#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd:47]
+INFO: [Synth 8-3491] module 'clock_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:35' bound to instance 'CLKCTR0' of component 'clock_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'clock_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:50]
+	Parameter n_bits bound to: 27 - type: integer 
+	Parameter n_max bound to: 100000000 - type: integer 
+INFO: [Synth 8-3491] module 'passthrough_modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:34' bound to instance 'PLS0' of component 'passthrough_modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:111]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 60 - type: integer 
+INFO: [Synth 8-3491] module 'passthrough_modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:34' bound to instance 'SEC0' of component 'passthrough_modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'passthrough_modulo_counter__parameterized2' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 60 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'passthrough_modulo_counter__parameterized2' (4#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 60 - type: integer 
+INFO: [Synth 8-3491] module 'passthrough_modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:34' bound to instance 'MIN0' of component 'passthrough_modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:121]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'passthrough_modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:34' bound to instance 'HRS0' of component 'passthrough_modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'passthrough_modulo_counter__parameterized4' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'passthrough_modulo_counter__parameterized4' (4#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'passthrough_modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:34' bound to instance 'AMP0' of component 'passthrough_modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'passthrough_modulo_counter__parameterized6' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+	Parameter n_bits bound to: 6 - type: integer 
+	Parameter n_max bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'passthrough_modulo_counter__parameterized6' (4#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'clock_counter' (5#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd:50]
+INFO: [Synth 8-3491] module 'data_convert' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/data_convert.vhd:34' bound to instance 'DATACVT' of component 'data_convert' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'data_convert' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/data_convert.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'data_convert' (6#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/data_convert.vhd:42]
+	Parameter f_board bound to: 100000000.000000 - type: double 
+	Parameter f_flicker bound to: 62.500000 - type: double 
+	Parameter n_digits bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'seven_segment_driver' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:6' bound to instance 'DISPDVR' of component 'seven_segment_driver' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_driver' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:19]
+	Parameter f_board bound to: 100000000.000000 - type: double 
+	Parameter f_flicker bound to: 62.500000 - type: double 
+	Parameter n_digits bound to: 8 - type: integer 
+	Parameter n_bits bound to: 18 - type: integer 
+	Parameter n_max bound to: 200000 - type: integer 
+INFO: [Synth 8-3491] module 'modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:35' bound to instance 'CTR0' of component 'modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:45]
+	Parameter n_bits bound to: 18 - type: integer 
+	Parameter n_max bound to: 200000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'modulo_counter' (7#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:45]
+	Parameter n_bits bound to: 3 - type: integer 
+	Parameter n_max bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:35' bound to instance 'CTR1' of component 'modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'modulo_counter__parameterized1' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:45]
+	Parameter n_bits bound to: 3 - type: integer 
+	Parameter n_max bound to: 7 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'modulo_counter__parameterized1' (7#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:45]
+	Parameter n_digits bound to: 8 - type: integer 
+	Parameter disp_width bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'decoder' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/decoder.vhd:35' bound to instance 'DCR0' of component 'decoder' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'decoder' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/decoder.vhd:42]
+	Parameter n_digits bound to: 8 - type: integer 
+	Parameter disp_width bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'decoder' (8#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/decoder.vhd:42]
+	Parameter data_width bound to: 4 - type: integer 
+	Parameter n_digits bound to: 8 - type: integer 
+	Parameter n_data bound to: 32 - type: integer 
+	Parameter n_disp bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'multiplexer' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/multiplexer.vhd:35' bound to instance 'MPX0' of component 'multiplexer' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'multiplexer' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/multiplexer.vhd:45]
+	Parameter data_width bound to: 4 - type: integer 
+	Parameter n_digits bound to: 8 - type: integer 
+	Parameter n_data bound to: 32 - type: integer 
+	Parameter n_disp bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'multiplexer' (9#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/multiplexer.vhd:45]
+INFO: [Synth 8-3491] module 'bchrom' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/new/bchrom.vhd:35' bound to instance 'ROM0' of component 'bchrom' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'bchrom' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/new/bchrom.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'bchrom' (10#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/new/bchrom.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_driver' (11#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd:19]
+	Parameter f_board bound to: 100000000 - type: integer 
+	Parameter f_blink bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'blinker' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/blinker.vhd:36' bound to instance 'BLNKR' of component 'blinker' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'blinker' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/blinker.vhd:46]
+	Parameter f_board bound to: 100000000 - type: integer 
+	Parameter f_blink bound to: 7 - type: integer 
+	Parameter n_bits bound to: 24 - type: integer 
+	Parameter n_max bound to: 14285713 - type: integer 
+INFO: [Synth 8-3491] module 'modulo_counter' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:35' bound to instance 'CLKDIV' of component 'modulo_counter' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/blinker.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'modulo_counter__parameterized3' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:45]
+	Parameter n_bits bound to: 24 - type: integer 
+	Parameter n_max bound to: 14285713 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'modulo_counter__parameterized3' (11#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'blinker' (12#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/blinker.vhd:46]
+INFO: [Synth 8-3491] module 'am_pm_convert' declared at 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/am_pm_convert.vhd:34' bound to instance 'AMPM' of component 'am_pm_convert' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'am_pm_convert' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/am_pm_convert.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'am_pm_convert' (13#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/am_pm_convert.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'fpga_clock' (14#1) [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1018.453 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.453 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.453 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1018.453 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/constrs_1/imports/constraint_sources/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/constrs_1/imports/constraint_sources/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/constrs_1/imports/constraint_sources/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fpga_clock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fpga_clock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1089.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1089.703 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1089.703 ; gain = 71.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1089.703 ; gain = 71.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1089.703 ; gain = 71.250
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'tmp_reg' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/multiplexer.vhd:53]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1089.703 ; gain = 71.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   27 Bit       Adders := 2     
+	   2 Input   24 Bit       Adders := 1     
+	   2 Input   18 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 11    
+	   3 Input    6 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	                6 Bit    Registers := 8     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input   27 Bit        Muxes := 4     
+	   2 Input   24 Bit        Muxes := 1     
+	   2 Input   18 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 18    
+	   3 Input    6 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	   3 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1089.703 ; gain = 71.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1089.703 ; gain = 71.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1100.355 ; gain = 81.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    27|
+|3     |LUT1   |     5|
+|4     |LUT2   |    19|
+|5     |LUT3   |    27|
+|6     |LUT4   |    42|
+|7     |LUT5   |    36|
+|8     |LUT6   |    66|
+|9     |MUXF7  |     1|
+|10    |FDRE   |   149|
+|11    |IBUF   |     6|
+|12    |OBUF   |    20|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1104.629 ; gain = 14.926
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.629 ; gain = 86.176
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1113.457 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1113.457 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+83 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1113.457 ; gain = 95.004
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/synth_1/fpga_clock.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fpga_clock_utilization_synth.rpt -pb fpga_clock_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 24 02:52:39 2021...
