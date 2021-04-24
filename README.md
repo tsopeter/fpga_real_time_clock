@@ -10,5 +10,5 @@
  If not, generate bitstream.
 
 # Contact
- tsopeter@ku.edu
+nah!
 
