@@ -32,7 +32,9 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity fpga_clock is
+    generic(sec_ctr : natural := 100E6);
     Port ( clk : in std_logic;                          -- clock input
+           rst_in : in std_logic;
            btn : in std_logic_vector(4 downto 0);       -- button input
            anodes : out STD_LOGIC_VECTOR (7 downto 0);  -- anode output for 8 seven-segment display
            seg : out STD_LOGIC_VECTOR (6 downto 0);   -- seg output for seven-segment display
@@ -41,7 +43,6 @@ end fpga_clock;
 
 architecture Behavioral of fpga_clock is
 -- constants
-constant sec_ctr   : natural := 100E6; -- 100 MHz
 constant f_board   : real := 100.0E6; -- 100 MHz
 constant f_flicker : real := 62.5;    -- 62.5 Hz
 constant n_digits  : natural := 8;    -- 8 seven-segment display
@@ -136,7 +137,7 @@ component am_pm_convert is
 end component;
 begin
 -- constant signals
-rst <= '0';
+rst <= rst_in;
 ce  <= '1';
 
 -- setup component

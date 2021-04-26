@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/am_pm_convert.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/new/bchrom.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/imports/math_real.vhdl" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/blinker.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/data_convert.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/decoder.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/imports/math_real-body.vhdl" \
+"../../../../fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/multiplexer.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd" \
+"../../../../fpga_real_time_clock.srcs/sources_1/new/signal_toggle.vhd" \
+"../../../../fpga_real_time_clock.srcs/sim_1/new/fpga_clock_sim.vhd" \
+
+# Do not sort compile order
+nosort

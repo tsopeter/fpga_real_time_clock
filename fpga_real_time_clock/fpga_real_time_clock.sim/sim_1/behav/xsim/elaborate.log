@@ -1,0 +1,38 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 7b16e296b6584e1ba0c75f291d1799d9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fpga_clock_sim_behav xil_defaultlib.fpga_clock_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.math_real
+Compiling architecture behavioral of entity xil_defaultlib.signal_toggle [signal_toggle_default]
+Compiling architecture behavioral of entity xil_defaultlib.move_toggle [\move_toggle(n_bits=2,n_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.passthrough_modulo_counter [\passthrough_modulo_counter(n_bi...]
+Compiling architecture behavioral of entity xil_defaultlib.move_toggle [\move_toggle(n_bits=6,n_max=60)\]
+Compiling architecture behavioral of entity xil_defaultlib.move_toggle [\move_toggle(n_bits=6,n_max=12)\]
+Compiling architecture behavioral of entity xil_defaultlib.move_toggle [\move_toggle(n_bits=6,n_max=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.setup_controller [setup_controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.passthrough_modulo_counter [\passthrough_modulo_counter(n_bi...]
+Compiling architecture behavioral of entity xil_defaultlib.passthrough_modulo_counter [\passthrough_modulo_counter(n_bi...]
+Compiling architecture behavioral of entity xil_defaultlib.passthrough_modulo_counter [\passthrough_modulo_counter(n_bi...]
+Compiling architecture behavioral of entity xil_defaultlib.clock_counter [clock_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.data_convert [data_convert_default]
+Compiling architecture behavioral of entity xil_defaultlib.modulo_counter [\modulo_counter(n_bits=18,n_max=...]
+Compiling architecture behavioral of entity xil_defaultlib.modulo_counter [\modulo_counter(n_bits=3,n_max=7...]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [\decoder(disp_width=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.multiplexer [multiplexer_default]
+Compiling architecture behavioral of entity xil_defaultlib.bchrom [bchrom_default]
+Compiling architecture behavior of entity xil_defaultlib.seven_segment_driver [seven_segment_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.modulo_counter [\modulo_counter(n_bits=24,n_max=...]
+Compiling architecture behavioral of entity xil_defaultlib.blinker [\blinker(f_blink=7)\]
+Compiling architecture behavioral of entity xil_defaultlib.am_pm_convert [am_pm_convert_default]
+Compiling architecture behavioral of entity xil_defaultlib.fpga_clock [fpga_clock_default]
+Compiling architecture behavioral of entity xil_defaultlib.fpga_clock_sim
+Built simulation snapshot fpga_clock_sim_behav

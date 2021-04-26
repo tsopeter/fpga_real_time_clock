@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sim_1/new/fpga_clock_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fpga_clock_sim'

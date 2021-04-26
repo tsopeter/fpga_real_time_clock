@@ -1,0 +1,21 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sim_1/new/fpga_clock_sim.vhd,1619472231,vhdl,,,,fpga_clock_sim,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/math_real-body.vhdl,1619467338,vhdl,,,,,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/math_real.vhdl,1619467338,vhdl,C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/math_real-body.vhdl;C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd;C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/blinker.vhd;C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd;C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd,,,math_real,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/design_sources/seven_segment_driver.vhd,1619467338,vhdl,,,,seven_segment_driver,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/imports/new/bchrom.vhd,1619467338,vhdl,,,,bchrom,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/decoder.vhd,1619467338,vhdl,,,,decoder,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/modulo_counter.vhd,1619467338,vhdl,,,,modulo_counter,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/imports/sources_1/new/multiplexer.vhd,1619467338,vhdl,,,,multiplexer,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/am_pm_convert.vhd,1619467338,vhdl,,,,am_pm_convert,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/blinker.vhd,1619467338,vhdl,,,,blinker,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/clock_counter.vhd,1619471388,vhdl,,,,clock_counter,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/data_convert.vhd,1619467338,vhdl,,,,data_convert,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/fpga_clock.vhd,1619472149,vhdl,,,,fpga_clock,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/move_toggle.vhd,1619467338,vhdl,,,,move_toggle,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/passthrough_modulo_counter.vhd,1619467338,vhdl,,,,passthrough_modulo_counter,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/setup_controller.vhd,1619467338,vhdl,,,,setup_controller,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sources_1/new/signal_toggle.vhd,1619467338,vhdl,,,,signal_toggle,,,,,,,,
