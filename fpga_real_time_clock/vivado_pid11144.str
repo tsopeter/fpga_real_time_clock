@@ -1,0 +1,166 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 11144
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Apr 26 15:33:25 CDT 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	tsope
+User home directory: C:/Users/tsope
+User working directory: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/tsope/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/tsope/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/tsope/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/vivado.log
+Vivado journal file location: 	C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/vivado.jou
+Engine tmp dir: 	C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/.Xil/Vivado-11144-DESKTOP-C5SBQ16
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,029 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\tsope\Documents\GitHub\fpga_real_time_clock\fpga_real_time_clock\fpga_real_time_clock.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+103845kb) [00:00:12]
+// [Engine Memory]: 1,029 MB (+927873kb) [00:00:12]
+// [GUI Memory]: 123 MB (+17726kb) [00:00:12]
+// WARNING: HEventQueue.dispatchEvent() is taking  4491 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,029 MB. GUI used memory: 60 MB. Current time: 4/26/21, 3:33:25 PM CDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:07 . Memory (MB): peak = 1016.895 ; gain = 0.000 
+// Project name: fpga_real_time_clock; location: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 136 MB (+6597kb) [00:07:49]
+// Elapsed time: 593 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  244965 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,029 MB. GUI used memory: 79 MB. Current time: 4/26/21, 4:06:39 PM CDT
+// Elapsed time: 1416 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // D
+// Elapsed time: 78 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd), CLKCTR0 : clock_counter(Behavioral) (clock_counter.vhd)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd), CLKCTR0 : clock_counter(Behavioral) (clock_counter.vhd)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 39 seconds
+selectCodeEditor("clock_counter.vhd", 238, 221); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("clock_counter.vhd", 524, 344); // bP
+selectButton(RDIResource.HCodeView_FIND_TEXT_IN_FILE, (String) null); // x: TRUE
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100E6"); // l
+selectCodeEditor("clock_counter.vhd", 505, 196); // bP
+selectCodeEditor("clock_counter.vhd", 428, 242); // bP
+// Elapsed time: 12 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "100E6"); // l
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fpga_clock.vhd", 1); // m
+selectCodeEditor("fpga_clock.vhd", 260, 183); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("fpga_clock.vhd", 423, 253); // bP
+selectCodeEditor("fpga_clock.vhd", 232, 110); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("fpga_clock.vhd", 296, 116); // bP
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("fpga_clock.vhd", 350, 80); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("fpga_clock.vhd", 221, 108); // bP
+selectCodeEditor("fpga_clock.vhd", 253, 63); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("fpga_clock.vhd", 246, 153); // bP
+selectCodeEditor("fpga_clock.vhd", 222, 123); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE

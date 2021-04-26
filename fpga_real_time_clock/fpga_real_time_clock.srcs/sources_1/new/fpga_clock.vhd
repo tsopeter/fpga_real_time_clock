@@ -41,6 +41,7 @@ end fpga_clock;
 
 architecture Behavioral of fpga_clock is
 -- constants
+constant sec_ctr   : natural := 100E6; -- 100 MHz
 constant f_board   : real := 100.0E6; -- 100 MHz
 constant f_flicker : real := 62.5;    -- 62.5 Hz
 constant n_digits  : natural := 8;    -- 8 seven-segment display
@@ -85,6 +86,7 @@ component seven_segment_driver IS
 END component;
 
 component clock_counter is
+    generic(n_speed : natural := 100E6);
     Port ( clk : in STD_LOGIC;
            rst : in std_logic;
            ce  : in std_logic;
@@ -144,6 +146,7 @@ port map(clk => clk, btn => btn, pass => pass,
 
 -- clock component
 CLKCTR0 : clock_counter
+generic map(n_speed => sec_ctr)
 port map(clk => clk, rst => rst, ce => ce, pass => pass,
          sec_in => sec_input, min_in => min_input, hrs_in => hrs_input, ams_in => ams_input,
          sec_out => sec_bridge, min_out => min_bridge, hrs_out => hrs_bridge, ams_out => ams_bridge);

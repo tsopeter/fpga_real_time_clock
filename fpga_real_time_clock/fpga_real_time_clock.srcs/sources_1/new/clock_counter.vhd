@@ -33,6 +33,7 @@ use work.math_real.all;
 --use UNISIM.VComponents.all;
 
 entity clock_counter is
+    generic(n_speed : natural := 100E6);
     Port ( clk : in STD_LOGIC;
            rst : in std_logic;
            ce  : in std_logic;
@@ -49,9 +50,9 @@ end clock_counter;
 
 architecture Behavioral of clock_counter is
 -- constants
-constant hz_bits : natural := natural(ceil(log2(real(100E6))));
+constant hz_bits : natural := natural(ceil(log2(real(n_speed))));
 constant n_bits  : natural := 6;
-constant hz_max  : natural := 100E6;
+constant hz_max  : natural := n_speed;
 constant sec_max : natural := 60;
 constant min_max : natural := 60;
 constant hrs_max : natural := 12;
