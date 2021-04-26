@@ -153,14 +153,17 @@ DATACVT : data_convert
 port map(sec_in => sec_bridge, min_in => min_bridge, hrs_in => hrs_bridge, ams_in => ams_bridge,
          data_out => disp0);
          
+-- display driver
 DISPDVR : seven_segment_driver
 generic map(f_board => f_board, f_flicker => f_flicker, n_digits => n_digits)
 port map   (clk => clk, rst => rst, data => disp2, anodes => anodes_int, cathodes => seg_int);
 
+-- blinker select display
 BLNKR : blinker
 generic map(f_board => natural(f_board), f_blink => 7)
 port map   (clk => clk, disp => disp_blink, en => pass, data_in => disp1, data_out => disp2);
 
+-- am/pm converter
 AMPM  : am_pm_convert
 port map(data_in => disp0, data_out => disp1);
 -- decoder

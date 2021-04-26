@@ -1,0 +1,213 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 11232
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Apr 26 15:02:59 CDT 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	tsope
+User home directory: C:/Users/tsope
+User working directory: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/tsope/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/tsope/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/tsope/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/vivado.log
+Vivado journal file location: 	C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/vivado.jou
+Engine tmp dir: 	C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/.Xil/Vivado-11232-DESKTOP-C5SBQ16
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 991 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1277 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\tsope\Documents\GitHub\fpga_real_time_clock\fpga_real_time_clock\fpga_real_time_clock.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 991 MB. GUI used memory: 54 MB. Current time: 4/26/21, 3:03:00 PM CDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 76 MB (+77181kb) [00:00:20]
+// [Engine Memory]: 991 MB (+888117kb) [00:00:20]
+// [GUI Memory]: 98 MB (+19549kb) [00:00:20]
+// [GUI Memory]: 112 MB (+9155kb) [00:00:24]
+// WARNING: HEventQueue.dispatchEvent() is taking  7765 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:13 . Memory (MB): peak = 1004.473 ; gain = 0.000 
+// Project name: fpga_real_time_clock; location: C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 129 MB (+11559kb) [00:01:05]
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 19, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 19, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cr):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  2683 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// 'Q' command handler elapsed time: 4 seconds
+dismissDialog("Open Hardware Manager"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ak
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cr):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.2   **** Build date : Nov 18 2020 at 10:01:48     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2020.2   ****** Build date   : Nov 03 2020-15:02:56     **** Build number : 2020.2.1604437376       ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1004.473 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  5822 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B0F1A9A 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,307 MB. GUI used memory: 79 MB. Current time: 4/26/21, 3:04:20 PM CDT
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2345.031 ; gain = 1340.559 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/impl_1/fpga_clock.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,309 MB (+1329181kb) [00:01:35]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 21 seconds
+dismissDialog("Auto Connect"); // bz
+// Elapsed time: 25 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.runs/impl_1/fpga_clock.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 72 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  1353 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,357 MB. GUI used memory: 81 MB. Current time: 4/26/21, 3:06:05 PM CDT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd), SETUP : setup_controller(Behavioral) (setup_controller.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga_clock(Behavioral) (fpga_clock.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 24 seconds
+selectCodeEditor("fpga_clock.vhd", 100, 76); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("fpga_clock.vhd", 11, 187); // bP
+selectCodeEditor("fpga_clock.vhd", 23, 279); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
